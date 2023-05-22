@@ -12,9 +12,9 @@ Password: test1
 3 routes in the app
 
 ```bash
-/ .
-/manage .
-/rewards .
+/
+/manage
+/rewards
 ```
 
 ## Getting Started
