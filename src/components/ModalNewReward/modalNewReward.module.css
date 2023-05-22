@@ -1,0 +1,63 @@
+.container {
+  background: #fff;
+  width: 400px;
+  border-radius: 5px;
+  padding: 30px 40px;
+}
+
+.container form {
+  margin-top: 15px;
+}
+
+.container p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.container form div {
+  margin-bottom: 10px;
+}
+
+.container form div label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container form div input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.buttons button:first-child {
+  background: linear-gradient(90deg, #fab31b, #f78614);
+  color: #fff;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.buttons button:last-child {
+  background: #555;
+  color: #fff;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+  margin-left: 10px;
+}

@@ -1,0 +1,24 @@
+.main {
+  width: 60%;
+  background: #fff;
+  margin: auto;
+  padding: 0px 30px 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+  column-gap: 20px;
+}
+
+.container div {
+  padding: 20px;
+  background: #ddd;
+  text-align: center;
+}
+
+.container b {
+  font-size: 20px;
+  margin: 15px 0;
+  display: block;
+}

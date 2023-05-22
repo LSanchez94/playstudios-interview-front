@@ -1,0 +1,109 @@
+.main {
+  width: 60%;
+  background: #fff;
+  margin: auto;
+  padding: 0px 30px 40px;
+}
+
+.main table {
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.addButton {
+  background: linear-gradient(90deg, #fab31b, #f78614);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.contentTable {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.contentTable th {
+  padding: 10px 0;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.contentTable th div {
+  display: flex;
+  cursor: pointer;
+}
+
+.contentTable th img {
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.contentTable tbody tr td {
+  padding: 8px 0;
+  padding-right: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.contentTable tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+.contentTable thead th:nth-child(6),
+.contentTable thead th:nth-child(7) {
+  text-align: center;
+}
+
+.contentTable th:nth-child(1) {
+  width: 20%;
+}
+
+.contentTable th:nth-child(2) {
+  width: 25%;
+}
+
+.contentTable th:nth-child(3),
+.contentTable th:nth-child(4),
+.contentTable th:nth-child(5) {
+  width: 15%;
+}
+
+.contentTable th:nth-child(6),
+.contentTable th:nth-child(7) {
+  width: 5%;
+}
+
+.contentTable tbody tr td:nth-child(6),
+.contentTable tbody tr td:nth-child(7) {
+  margin: auto;
+}
+
+.contentTable tbody tr td:nth-child(6) button,
+.contentTable tbody tr td:nth-child(7) button {
+  background: linear-gradient(90deg, #fab31b, #f78614);
+  border: none;
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin: auto;
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.contentTable tbody tr td:nth-child(7) button {
+  background: linear-gradient(90deg, #fa1b1b, #f71414);
+}
+
+.contentTable tbody tr td button img {
+  filter: invert(98%) sepia(98%) saturate(8%) hue-rotate(172deg)
+    brightness(103%) contrast(102%);
+}
