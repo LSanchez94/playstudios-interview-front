@@ -4,14 +4,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Credentials
 
+```bash
 Username: luis
 Password: test1
+```
 
 3 routes in the app
 
-/ login
-/manage rewards ABC
-/rewards rewards display
+```bash
+/ .
+/manage .
+/rewards .
+```
 
 ## Getting Started
 
